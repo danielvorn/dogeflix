@@ -3,6 +3,11 @@
 # IDE artifacts
 .idea
 
+# firebase
+.firebaserc
+.firebase/
+firebase.json
+
 # dependencies
 /node_modules
 /.pnp

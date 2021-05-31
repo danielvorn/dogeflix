@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import DogeflixLogo from "./assets/futureisdoge.png";
-import Avatar from "./assets/avatar.png";
-import './Nav.css';
+import DogeflixLogo from "../assets/futureisdoge.png";
+import Avatar from "../assets/avatar.png";
+import '../styles/Nav.css';
 
 function Nav() {
     const [show, handleShow] = useState(false);

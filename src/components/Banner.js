@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import axios from './axios';
-import requests from "./requests";
-import './Banner.css';
+import axios from '../axios';
+import requests from "../requests";
+import '../styles/Banner.css';
 
 function Banner() {
     const [movie, setMovie] = useState([]);
@@ -48,4 +48,4 @@ function Banner() {
     )
 }
 
-export default Banner
+export default Banner;
