@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Row from './Row';
+import Banner from './Banner';
 import requests from './requests';
 
 function App() {
     return (
         <div className="App">
-            <Row title="Dogeflix ORIGINALS"
+            <Banner/>
+            <Row title="DOGEFLIX ORIGINALS"
                  fetchUrl={requests.getNetflixOriginals}
                  isLargeRow/>
             <Row title="Trending Now" fetchUrl={requests.getTrending}/>
